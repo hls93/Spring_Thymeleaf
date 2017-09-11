@@ -1,9 +1,9 @@
 package com.example.thymeleaf;
 
 public class Student {
-    String firstName;
-    String lastName;
-    Grade grade;
+    private String firstName;
+    private String lastName;
+    private Grade grade;
 
     public Student(String firstName, String lastName, Grade grade) {
         this.firstName = firstName;
